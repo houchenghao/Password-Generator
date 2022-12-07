@@ -41,7 +41,7 @@ function generatePassword(){
     chars = Lowerchars;
   }
 
-  var UppercharsOrNot = window.confirm("Click Ok to confirm including upper characters");
+  var UppercharsOrNot = window.confirm("Click Ok to confirm including uppercase");
   if(UppercharsOrNot){
     chars = chars + Upperchars;
   }
